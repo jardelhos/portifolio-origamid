@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header-1{
+    background-color: #fdfdfd;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 1px 1px 8px rgb(172, 172, 172);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 15, 90, 0.938);
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 0px 1px 6px black;
+}
+
+nav a:hover{
+    background-color:white;
+    color: black;
+    border: 1px solid rgb(27, 0, 228);
+    padding: 15px;
+    transition: 0.5s;
+}
+
+/* main */
+
+.titulo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+}
+
+.titulo img{
+    width: 360px;
+    height: 520px;
+}
+
+.titulo h1{
+    font-size: 4.5rem;
+    line-height: 1.125;
+}
+
+.titulo p{
+    font-size: 1.5rem;
+    color: rgb(32, 32, 88);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.432);
+}
+
+/*experiencia */
+
+.experiencia{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    padding: 40px 20px;
+}
+
+.experiencia-destaque{
+    font-size: 5rem;
+    max-width: 260px;
+    word-break: break-all;
+    color: rgb(161, 161, 161);
+}
+
+#experiencia-texto{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.experiencia-trabalhos{
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 20px;
+    gap: 40px;
+   background-color: rgb(245, 245, 245);
+   border-radius: 8px;
+   font-size: .85rem;
+
+}
+
+.experiencia-trabalhos h3{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.experiencia-trabalhos p{
+    font-size: 1 rem;
+    max-width: 600px;
+    gap: 20px;
+    line-height: 1.33;
+    
+}
+
+.experiencia-li{
+    list-style: none;
+    padding: 8px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+
+    
+    
+}
+
+.experiencia-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* formaçao */
+.formacao-container{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+#formacao-texto{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: rgb(143, 143, 143);
+}
+.formacao{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.formacao-destaque{
+    font-size: 5rem;
+    max-width: 260px;
+    word-break: break-all;
+    color: black;
+}
+
+.formacao-lista{
+    display: flex;
+    margin: 40px 0px 40px 0px;
+}
+
+
+.formacao-cursos{
+    padding: 10px 20px;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    box-shadow: 1px 4px 8px black;
+}
+
+.formacao-span{
+    color: white;
+}
+
+.formacao-tipo{
+    color: rgb(143, 143, 143);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.faculdade{
+    color: rgb(143, 143, 143);
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    
+}
+
+.formacao-intensivo{
+    padding: 10px 20px;
+
+    
+}
+
+.formacao-idiomas{
+    padding: 10px 20px;
+    
+}
+.intensivo-formacao{
+    margin-top: 20px;
+}
+
+.lista{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lista span{
+    color: rgb(122, 122, 122);
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.footer-texto{
+    font-size: 1.8rem;
+    max-width: 700px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(9, 9, 48);
+    padding: 20px 40px;
+    border-radius: 8px;
+    
+    
+}
+
+.footer li{
+    list-style: none;
+    margin: 20px;
+    font-size: 1.4rem;
+    margin: 60px;
+   
+}
+
+
+.final-footer{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    background: rgb(9, 9, 48);
+}
+
+@media(max-width:600px){
+    .header nav{
+       margin-top: 30px;
+    }
+    .titulo{
+        flex-wrap: wrap;
+        
+    }
+    .titulo h1{
+        font-size: 3.5rem;
+    }
+    .experiencia{
+        flex-wrap: wrap;
+        
+    }
+    .experiencia-destaque{
+        display: none;
+    }
+   
+    
+    .formacao-destaque{
+        display: none;
+    }
+    .formacao-lista{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+}
